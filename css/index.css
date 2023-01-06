@@ -27,30 +27,29 @@ main{
     transform: translate(-50%,-50%); 
 }
 
-section#nome{
+#nome {
     position: absolute;
     font-family: minhaFonte;
-    font-size: 1rem;
+    font-size: 1.7rem;
     color:rgb(255, 255, 255);
-    opacity: 0.3;
-    top: 91%;
-    left: 5%;
+    opacity: 0.8;
+    top: 6%;
+    left: 35%;
 }
 
-section#nav{
+nav {
     position: absolute;
-    top: 40px;
-    left: 30%;
+    top: 13%;
+    left: 32%;
 }
-
-section#nav > a{
+nav > a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    color: white;
-    font-size: 13px;
-    padding-right: 5px;
+    padding-right: 6px;
+    
 }
 
-section#inicio > div#img{
+#img{
     display: block;
     height: 696px;
     width: 414px;
@@ -58,3 +57,4 @@ section#inicio > div#img{
     background-size:cover ;
     background-position: center bottom;
 } 
+
