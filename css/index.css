@@ -10,51 +10,85 @@
 body, html{
     width: 100vw;
     height: 100vh;
-    position: relative;
-}
+    position: relative; }
 
 main{
     position: absolute;
-    overflow: hidden;
     width: 100vw;
     height: 100vh;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329) ;
     
-    height: 696px;
-    width: 414px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%); }
+
+section#inicio{
+    display: block;
+
 }
 
 #nome {
     position: absolute;
     font-family: minhaFonte;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     color:rgb(255, 255, 255);
-    opacity: 0.8;
-    top: 6%;
-    left: 35%;
+    opacity: 1;
+    top: 35px;
+    left: 102px;
 }
 
 nav {
     position: absolute;
-    top: 13%;
-    left: 32%;
+    top: 97px;
+    left: 125px;
 }
+
 nav > a {
     color: rgb(255, 255, 255);
+    font-size: 16px;
     text-decoration: none;
     padding-right: 6px;
-    
 }
 
 #img{
     display: block;
-    height: 696px;
+    height: 796px;
     width: 414px;
     background-image: url(../images/back.jpeg);
     background-size:cover ;
     background-position: center bottom;
 } 
+
+
+section#meio{
+ background-color: rgb(255, 255, 255);
+}
+#img2{
+    position: relative;
+    max-width: 414px;
+    background-image: url(../images/back.jpeg);
+    background-size:cover ;
+    background-position: top top;
+    opacity: 0.2;
+}
+#puxar{
+    position: absolute;
+    top: 830px;
+}
+section#meio h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+section#meio p {
+    padding:10px;
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+section#meio .links{
+    color: rgb(0, 0, 0);
+}
 
