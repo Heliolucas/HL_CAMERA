@@ -39,19 +39,20 @@ section#inicio{
 
 nav {
     position: absolute;
-    top: 97px;
-    left: 125px;
+    top: 100px;
+    left: 330px;
 }
 
-nav > a {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    text-decoration: none;
-    padding-right: 6px;
+.redes{
+    position: relative;
+    top: -10px;
+    left: 17px;
+    height: 26px;
+    padding-top: 14px;
 }
 
 #img{
-    display: block;
+    display: inline-block;
     height: 796px;
     width: 414px;
     background-image: url(../images/back.jpeg);
