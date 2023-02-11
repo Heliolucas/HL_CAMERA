@@ -24,7 +24,6 @@ main{
 
 section#inicio{
     display: block;
-
 }
 
 #nome {
@@ -44,11 +43,38 @@ nav {
 }
 
 .redes{
+    z-index: 2;
     position: relative;
-    top: -10px;
-    left: 17px;
+    top: -9px;
+    left: 26px;
     height: 26px;
     padding-top: 14px;
+}
+div#bloco{
+position: absolute;
+top: 96px;
+left: 348px;
+    display: inline;
+    z-index: 1;
+    opacity: 0.4;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+height: 130px;
+width: 48px;
+}
+
+div#temas{
+    position: absolute;
+    display: inline-block;
+}
+.clima{
+    position: relative;
+    top: 60px;
+    left: 357px;
+    padding-bottom: 146px;
+    height: 26px;
+    width: 26px;
 }
 
 #img{
@@ -59,7 +85,6 @@ nav {
     background-size:cover ;
     background-position: center bottom;
 } 
-
 
 section#meio{
  background-color: rgb(255, 255, 255);
