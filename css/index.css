@@ -70,15 +70,23 @@ div#temas{
     position: absolute;
     display: inline-block;
 }
-.clima{
-    z-index: 2;
+#tm1{
     position: relative;
     top: 243px;
     left: 380px;
-    padding-bottom: 141px;
+    z-index: 2;
     height: 26px;
     width: 26px;
 }
+#tm2{
+    position: relative;
+    top: 380px;
+    left: 380px;
+    z-index: 2;
+    height: 26px;
+    width: 26px;
+}
+
 #img{
     display: inline-block;
     height: 800px;
@@ -87,6 +95,7 @@ div#temas{
     background-size:cover ;
 }
 
+/* SEGUND PERTE DA PAGINA */
 section#meio{
  background-color: rgb(255, 255, 255);
 }
