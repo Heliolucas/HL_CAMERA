@@ -10,7 +10,8 @@
 body, html{
     width: 100vw;
     height: 100vh;
-    position: relative; }
+    position: relative; 
+}
 
 main{
     position: absolute;
@@ -29,11 +30,10 @@ section#inicio{
 #nome {
     position: absolute;
     font-family: minhaFonte;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:rgb(255, 255, 255);
-    opacity: 1;
-    top: 35px;
-    left: 102px;
+    top: 75px;
+    left: 94px;
 }
 
 nav {
@@ -45,22 +45,22 @@ nav {
 .redes{
     z-index: 2;
     position: relative;
-    top: -9px;
-    left: 26px;
+    top: 170px;
+    left: 50px;
     height: 26px;
     padding-top: 14px;
 }
 div#bloco{
 position: absolute;
-top: 96px;
-left: 348px;
+top: 230px;
+left: 370px;
     display: inline;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.8;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
-height: 130px;
+height: 220px;
 width: 48px;
 }
 
@@ -69,22 +69,21 @@ div#temas{
     display: inline-block;
 }
 .clima{
+    z-index: 2;
     position: relative;
-    top: 60px;
-    left: 357px;
-    padding-bottom: 146px;
+    top: 243px;
+    left: 380px;
+    padding-bottom: 141px;
     height: 26px;
     width: 26px;
 }
-
 #img{
     display: inline-block;
-    height: 796px;
-    width: 414px;
-    background-image: url(../images/back.jpeg);
+    height: 800px;
+    max-width: 614px;
+    background-position: bottom bottom;
     background-size:cover ;
-    background-position: center bottom;
-} 
+}
 
 section#meio{
  background-color: rgb(255, 255, 255);
@@ -92,7 +91,7 @@ section#meio{
 #img2{
     position: relative;
     max-width: 414px;
-    background-image: url(../images/back.jpeg);
+    height: 596px;
     background-size:cover ;
     background-position: top top;
     opacity: 0.2;
