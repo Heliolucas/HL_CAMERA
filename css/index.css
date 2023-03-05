@@ -3,9 +3,9 @@
     font-family: minhaFonte;
     src: url(../images/Love.otf);
 }
-
 * { margin: 0px;
-    padding: 0px; }
+    padding: 0px; 
+}
 
 body, html{
     width: 100vw;
@@ -35,7 +35,7 @@ section#inicio{
     font-size: 3rem;
     color:rgb(255, 255, 255);
     top: 75px;
-    left: 94px;
+    left: 94px; 
 }
 
 nav {
@@ -90,7 +90,7 @@ div#temas{
 #img{
     display: inline-block;
     height: 800px;
-    max-width: 614px;
+    max-width: 500px;
     background-position: bottom bottom;
     background-size:cover ;
 }
@@ -101,8 +101,8 @@ section#meio{
 }
 #img2{
     position: relative;
-    max-width: 414px;
-    height: 596px;
+    width: 100%;
+    height: 700px;
     background-size:cover ;
     background-position: top top;
     opacity: 0.2;
@@ -126,5 +126,12 @@ section#meio p {
 
 section#meio .links{
     color: rgb(0, 0, 0);
+}
+
+footer p{
+    position: absolute;
+    top: 700px;
+    left: 34%;
+    color: white;
 }
 
